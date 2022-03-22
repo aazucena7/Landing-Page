@@ -5,6 +5,7 @@ body {
 img {
     width: 333px;
     height: 250px;
+    border-radius: 15px;
 }
 .first-section {
     background: #1F2937;
@@ -73,9 +74,9 @@ a {
 .placeholder {
     flex: 1;
     justify-content:flex-start;
-    background: gray;
     display: flex;
     max-width: 333px;
+    
     
 }
 
