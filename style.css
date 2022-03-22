@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-img {
+.placeholder img {
     width: 333px;
     height: 250px;
     border-radius: 15px;
@@ -76,8 +76,7 @@ a {
     justify-content:flex-start;
     display: flex;
     max-width: 333px;
-    
-    
+  
 }
 
 button {
@@ -99,15 +98,17 @@ button {
     color: black;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    gap: 30px;
+    
    
 }
-.box {
-    max-width: 150px;
-    height: 150px;
+.box img {
+    max-width: 200px;
+    height: 200px;
     border: 2px solid #3882F6;
     border-radius: 15px;
-    background: transparent;
     
+}
+.box p {
+    max-width: 200px;
 }
